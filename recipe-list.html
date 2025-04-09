@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe List - My Recipe Book</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Recipe Gallery</h1>
+        <p>Browse your favorite recipes by category!</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="add-recipe.html">Add Recipe</a>
+        <a href="recipe-list.html">Recipe List</a>
+    </nav>
+
+    <div class="container">
+            <h2>Search Recipes:</h2> <hr class="hr">
+            <input type="text" placeholder="Search by name or ingredients" style="width: 100%; padding: 10px; margin-bottom: 20px;">
+        
+        <h2>Filter by Category:</h2> <hr class="hr">
+        <ul class="category-links">
+            <li><a href="#desserts">Desserts</a></li>
+            <li><a href="#vegan">Vegan</a></li>
+            <li><a href="#quick">Quick Meals</a></li>
+            <li><a href="#Appetizers">Appetizers</a></li>
+        </ul>
+
+        <section class="recipe-gallery">
+            <article id="desserts">
+                <h3>Chocolate Chip Cookies</h3>
+                <img src="images/chocolate-chip-cookies.jpg" alt="Cookies" width="400px" height="350px">
+                <p>Soft and gooey cookies perfect for dessert lovers.</p>
+                <p class="recipe-card"><a href="recipe-details.html#desserts" class="recipe-links">View Recipe</a></p>
+            </article>
+
+            <article id="vegan">
+                <h3>Lobia</h3>
+                <img src="images/Lobia.jpg" alt="Lobia" width="400px" height="350px">
+                <p>A hearty, comforting red kidney bean stew bursting with bold spices and rich flavors, perfect for plant-based goodness!</p>
+                <p class="recipe-card"><a href="recipe-details.html#vegan" class="recipe-links">View Recipe</a></p>
+            </article>
+
+            <article id="quick">
+                <h3>Quick Spaghetti</h3>
+                <img src="images/Quick-Pasta.jpg" alt="Quick Spaghetti" width="400px" height="350px">
+                <p>Delicious Spaghetti ready in just 15 minutes.</p>
+                <p class="recipe-card"><a href="recipe-details.html#quick" class="recipe-links">View Recipe</a></p>
+            </article>
+            <article id="Appetizers">
+                <h3>Shor Nakhood</h3>
+                <img src="images/Shor Nakhood.jpg" alt="Shor Nakhood" width="400px" height="350px">
+                <p>A tangy chickpea salad dressed with lemon juice and spices.</p>
+                <p class="recipe-card"><a href="recipe-details.html#Appetizers" class="recipe-links">View Recipe</a></p>
+            </article>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Marzia Hashimi. Sharing love through recipes.</p>
+    </footer>
+</body>
+</html>

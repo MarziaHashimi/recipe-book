@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+   background-color: #581845;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+header h1 {
+    margin-bottom: 5px;
+    font-size: 2.5em;
+    color: #FFD700;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #FFFFF0;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 12px 0;
+}
+
+nav a {
+    color: #f5f5f5;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color:#FFD700;
+}
+
+/* Main container to center content */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color:light beige;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.container img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+}
+
+h1{
+    color: #333;
+    text-shadow: 0.5px 1px 2px  rgb(84, 84, 83, 0.6);
+}
+h3{
+    text-align: center;
+    margin: 1em;
+    color: #800020;
+}
+#discription{
+    color:#333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#view-recipe{
+    text-align: center;
+}
+#view-recipe a {
+    color: #F5F5F5;
+    font-weight: bold;
+    text-decoration: none;
+    background-image: radial-gradient(#581845, #6b3259);
+    box-shadow: 4px 3px 6px rgba(96, 35, 85, 0.6);
+    border: 1px solid #333333;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px 20px;
+  }
+  
+#view-recipe a:hover {
+     color: #FFD700; 
+  }
+  /* Featured Categpry Button */
+  .category-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 1.5em auto;
+    flex-wrap: wrap;
+}
+
+.category-links li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #581845;
+    color: #f0f0f0;
+    box-shadow: 4px 3px 6px rgba(96, 35, 85, 0.6);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.category-links li a:hover {
+color:  #FFD700;
+}
+
+button, input[type="submit"] {
+    background-color:#581845;
+    color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+}
+button, input:hover{
+    color: #FFD700;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.recipe-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+.recipe-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.recipe-links {
+    margin: 15px auto;
+    padding: 10px 20px;
+    background-color: #581845;
+    box-shadow: 4px 3px 6px rgba(96, 35, 85, 0.6);
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.recipe-links:hover {
+    color: #FFD700;
+}
+/* Section styling */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #800020;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.hr{
+    border: none;
+    margin: auto;
+    width: 50%;
+    height: 1px;
+    background-color: #6b3259;
+    margin-bottom: 10px;
+}
+
+/* List styling */
+ul, ol {
+    padding-left: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f8f8f8;
+}
+
+/* Button styling */
+.fvt-btn{
+    color: #f0f0f0;
+}
+button:hover {
+    color: #FFD700;
+}
+
+/* Star styling */
+td:contains("⭐") {
+    font-size: 1.2em;
+}
+
+/* Footer paragraph (Submitted by) */
+.container > p:last-child {
+    margin-top: 20px;
+    font-style: italic;
+    text-align: right;
+}
+footer {
+    background-color: #581845;
+    color: #FFFFF0;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 14px;
+  }

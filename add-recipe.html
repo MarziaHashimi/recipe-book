@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipe - My Recipe Book</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Add Your Recipe</h1>
+        <p>Share your favorite dish with the world!</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="add-recipe.html">Add Recipe</a>
+        <a href="recipe-list.html">Recipe List</a>
+    </nav>
+
+    <div class="container">
+        <form action="#" method="post">
+            <label for="recipe-name">Recipe Name:</label>
+            <input type="text" id="recipe-name" name="recipe-name" required>
+
+            <label for="ingredients">Ingredients:</label>
+            <textarea id="ingredients" name="ingredients" rows="5" required></textarea>
+
+            <label for="instructions">Cooking Instructions:</label>
+            <textarea id="instructions" name="instructions" rows="6" required></textarea>
+
+            <label for="image-url">Image URL:</label>
+            <input type="url" id="image-url" name="image-url" placeholder="https://example.com/image.jpg" required>
+
+            <label for="category">Recipe Category:</label>
+            <select id="category" name="category" required>
+                <option value="">--Select a Category--</option>
+                <option value="Desserts">Desserts</option>
+                <option value="Appetizers">Appetizers</option>
+                <option value="Vegan">Vegan</option>
+                <option value="Quick Meals">Quick Meals</option>
+            </select>
+
+            <input type="submit" value="Add Recipe">
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2025 Marzia Hashimi. Sharing love through recipes.</p>
+    </footer>
+</body>
+</html>
